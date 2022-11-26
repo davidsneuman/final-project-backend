@@ -20,6 +20,11 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://sawebfilesprod001.blob.core.windows.net/images/Untitled%20design%20(5)-2.png?sv=2017-04-17&sr=b&si=DNNFileManagerPolicy&sig=ckoT07MeavoWWJ5qBso4t0rHKm%2FGXdMWIVa8%2Bt9eRIE%3D" 
   }
 });
 
